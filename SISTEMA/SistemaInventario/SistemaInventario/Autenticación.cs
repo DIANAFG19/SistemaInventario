@@ -14,7 +14,7 @@ namespace SistemaInventario
     public partial class Autenticacion : Form
     {
         public static OleDbConnection con;
-        public static string direccion = "C:/Users/YOO/Desktop/SISTEMA/sistema.mdb";
+        public static string direccion = "C:/Users/YOO/Documents/GitHub/SistemaInventario/SISTEMA/sistema.mdb";
         public int intentos = 1;
         public static string user;
 
